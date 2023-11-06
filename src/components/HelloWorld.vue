@@ -3,14 +3,6 @@
 defineProps<{
   msg: string
 }>()
-
-
-function onclick() {
-  let images = document.getElementsByTagName('img');
-  for(let i = 0; i < images.length; i++){
-    
-  }
-}
 </script>
 
 <template>
@@ -21,13 +13,11 @@ function onclick() {
           alt="currencyPro logo"
           class="logo"
           src="../assets/img.jpeg"
-          width="125"
-          height="125"
+          style="width: 125px; height: 125px;"
         />
       </template>
       <span>Hi, my name is Jerry, your virtual assistant.</span>
     </n-popover>
-    <button v-on:click="onclick" id="jerrlize">Test</button>
   </div>
 </template>
 

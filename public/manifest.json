@@ -1,11 +1,17 @@
 {
   "name": "Jerry - Your virtual assistant",
-  "description": "Base Level Extension",
+  "description": "Change all the media files to jerry's profile picture",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",
-    "default_icon": "logo.png"
+    "default_icon": "img.png"
+  },
+  "icons": {
+    "16": "img.png",
+    "32": "img.png",
+    "48": "img.png",
+    "128": "img.png"
   },
   "content_scripts": [
     {
